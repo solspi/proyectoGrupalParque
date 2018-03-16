@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav{
+	margin: 0 auto;
+	text-align: center;
+	padding: 3%;
+}
+
+nav a{
+	font-size: 2em;
+	font-family: arial;
+	text-decoration: none;
+	color: #fafafa;
+
+}
+
+#mainContainer{
+	height: 800px;
+}
+
+.conBackground{
+	background-image: url("../img/fondo.jpeg");
+	background-size: cover;
+} 
+
+.letraGris a {
+ 	color: #BDBDBD;
+}
+
+h1{
+ font-family: Bree Serif, "serif";
+ font-size: 4em;
+ text-align: center;
+}
+
+footer{
+	background-color: black;
+}
+
+.mapa {
+	background-size: cover;
+	width: 600px;
+	height: 400px;
+	border: solid;
+	border-color: grey;
+}
