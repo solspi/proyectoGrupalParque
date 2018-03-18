@@ -75,3 +75,46 @@ a {
 	left: 650px;
 	top: 50px;
 }
+
+.fila{
+	width: 100%;
+	padding-left: 10%;
+	padding-right:  10%;
+	padding-top: 5%;
+	
+}
+.foto {
+	display: inline-block;
+	height: 250px;
+	margin: 10px 10px 10px 10px;
+	
+}
+
+span{
+	text-align: center;
+	color: white;
+	margin: 0px, 0px, 0px, 0px;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top:  0.5%;
+	padding-bottom: 1%;
+
+	background-color: blue;
+	font-family: Bree Serif, "serif";
+ 	font-size: 2em;
+}
+figcaption{
+	text-align: center;
+	color: blue;
+	font-family: Bree Serif, "serif";
+	font-size: 1em;
+}
+.orientacionRight{
+	float: right; 
+}
+
+/*
+.orientacion{
+	float: left;
+	margin-right: 5px;
+}
