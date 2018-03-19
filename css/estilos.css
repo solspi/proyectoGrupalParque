@@ -14,16 +14,53 @@ nav a{
 	font-size: 2em;
 	font-family: arial;
 	text-decoration: none;
-	color: #fafafa;
+	color: black;
 
 }
 
+.act { 
+	text-align: center;
+	font-size: 1em;
+	font-family: arial;
+	color: black;
+}
+.act2, #mainContainer {
+	background-color: #BAD8F9;
+}
+
+
+.actividades {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.actividades img{
+	display: inline-block;
+	margin: auto;
+	padding: 6px;
+
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9, .caja10, .caja11, .caja12 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 4px;
+  padding: 6px;
+  border: black 2px solid;
+}
+
+
 #mainContainer{
+	/*
 	height: 800px;
+	*/
 }
 
 .conBackground{
+	
 	background-image: url("../img/fondo.jpeg");
+	background-repeat: repeat-y;
+	
 	background-size: cover;
 } 
 
@@ -36,6 +73,8 @@ h1{
  font-size: 4em;
  text-align: center;
 }
+
+.clearfix { clear: both; }
 
 footer{
 	position: relative;
@@ -63,8 +102,8 @@ a {
 
 .mapa {
 	background-size: cover;
-	width: 600px;
-	height: 300px;
+	width: 400px;
+	height: 200px;
 	border: solid;
 	border-color: grey;
 }
@@ -78,30 +117,35 @@ a {
 
 .fila{
 	width: 100%;
-	padding-left: 10%;
+	text-align: center;
+	margin-bottom: 20px;
+/*	padding-left: 10%;
 	padding-right:  10%;
-	padding-top: 5%;
+	padding-top:5%;
+	*/
 	
 }
 .foto {
 	display: inline-block;
 	height: 250px;
-	margin: 10px 10px 10px 10px;
+	margin: 10px 2px 10px 2px;
 	
 }
 
-span{
+.fila span{
+	width: 100%;
+	font-family: Bree Serif, "serif";
+ 	font-size: 2em;
 	text-align: center;
 	color: white;
-	margin: 0px, 0px, 0px, 0px;
+	/*margin: 0px, 0px, 0px, 0px;
 	padding-left: 250px;
 	padding-right: 250px;
 	padding-top:  0.5%;
 	padding-bottom: 1%;
-
+*/
 	background-color: blue;
-	font-family: Bree Serif, "serif";
- 	font-size: 2em;
+	
 }
 figcaption{
 	text-align: center;
@@ -112,22 +156,45 @@ figcaption{
 .orientacionRight{
 	float: right; 
 }
-
 /*
 .orientacion{
 	float: left;
 	margin-right: 5px;
-}*/
+}
+*/
+.content{
+	margin:0 100px;	
+	background-color: #E0E5D5  ;
+	padding: 40px 30px;
+}
+
+div.titulo{
+	width: 100%;
+	background-color: blue;
+	padding: 10px 0;
+	color: white;
+	font-family: Bree Serif, "serif";
+ 	font-size: 2em;
+}
 
 .parrafo{font-family: Arial, "serif";
         font-size: 0.8em;
         text-align: center;
         color: white;
         background: rgba(0,0,0,0.3);
-        margin-top: 200px;
+        margin-top: 100px;
         padding: 45px;
         line-height:1.5em;
 		width: 87%;
 		margin-right:auto;
 		margin-left: auto;
     	}
+
+@media (max-width: 480px) {
+	nav a{
+		width: 100%;
+		display: block;
+	}
+
+	
+}
