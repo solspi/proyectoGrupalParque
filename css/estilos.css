@@ -1,4 +1,5 @@
 *{
+	
 	margin: 0;
 	padding: 0;
 }
@@ -178,7 +179,7 @@ div.titulo{
 }
 
 .parrafo{font-family: Arial, "serif";
-        font-size: 0.8em;
+        font-size: 1em;
         text-align: center;
         color: white;
         background: rgba(0,0,0,0.3);
@@ -190,11 +191,35 @@ div.titulo{
 		margin-left: auto;
     	}
 
-@media (max-width: 480px) {
+@media (max-width:480px) and (orientation:portrait) {
+	.mainContainer {
+		width: 100%;
+	}
 	nav a{
 		width: 100%;
+		size: 1em;
+	}
+
+	.parrafo {
+		width: 350px;
 		display: block;
 	}
 
-	
+	footer{
+		position: relative;
+		height: 380px;
+	}
+
+	.redes{
+		position: absolute;
+		left: 50px;
+		top: 200px;
+	}
+
+	.mapa {
+		position:absolute;
+		left: 40px;
+	}
+
+
 }
